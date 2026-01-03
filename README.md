@@ -1,31 +1,50 @@
-# Raja Buah (King of Fruits)
+# Raja Buah (King of Fruits) 
 
-A Suika Game clone with local Malaysian fruits, built using C++ and Raylib.
+A **Suika Game** clone featuring local Malaysian fruits. Built with **C++** and **Raylib** using **Visual Studio**.
 
-## Controls
-- **Left/Right Arrow:** Move the dropper.
+### Features
+* **Physics-based Gameplay:** Smooth fruit collisions and stacking using Raylib.
+* **Localized Theme:** Features 10 unique Malaysian fruits, from Mata Kucing to Durian.
+* **Dual Input Support:** Full control using either the keyboard or the mouse.
+* **Game State Management:** Includes a complete loop with a Main Menu, Gameplay, Pause, and Game Over screens.
 
-- **Mouse:** Move dropper with cursor.
+### Controls
+* **Movement:** Use `Left/Right Arrow` keys or the **Mouse** to position the dropper.
+* **Drop:** Press `Space` or **Left Click** to release the fruit.
+* **Pause:** Press `P` to pause the game.
+* **Restart:** Press `R` (on Game Over screen).
+* **Quit:** Press `Esc` to return to the main menu.
 
-- **Space / Left Click:** Drop fruit.
+## 🍎 Fruit Evolution Tiers
 
-- **P:** Pause Game.
+| Tier | Fruit | Description |
+| :--- | :--- | :--- |
+| 1 | **Mata Kucing** | The smallest tier. |
+| 2 | **Rambutan** | |
+| 3 | **Langsat** | |
+| 4 | **Manggis** | |
+| 5 | **Belimbing** | |
+| 6 | **Jambu Batu** | |
+| 7 | **Betik** | |
+| 8 | **Nanas** | |
+| 9 | **Nangka** | |
+| 10 | **Durian** | **The King of Fruits!** |
 
-- **R:** Restart (on Game Over screen).
+---
 
-- **Esc:** Quit to Menu.
+## 🛠️ How to Build (Visual Studio)
 
-## Fruit Tierrs
+To run this project locally, you will need **Visual Studio 2019 or 2022**.
 
-| Fruit     | Tiers       |  
-|---------------------|-------------|
-| Mata Kucing    | 1  |  
-| Rambutan | 2  |  
-| Langsat | 3 | 
-| Manggis | 4 | 
-| Belimbing | 5 | 
-| Jambu Batu | 6 | 
-| Betik | 7 | 
-| Nanas | 8 | 
-| Nangka | 9 | 
-| Durian (The King) | 10 | 
+1. **Clone the repository:**
+```bash
+git clone https://github.com/Hajimbo04/Raja-Buah-CPP.git
+```
+
+2. **Open the Solution:** Open the RajaBuah.sln file in Visual Studio.
+
+3. **Configure Raylib:** Ensure your project properties are linked to the Raylib library:
+    - Include Directories: Add your path to raylib/src.
+    - Library Directories: Add your path to the folder containing raylib.lib.
+
+4. **Build and Run:** Set the configuration to Release or Debug and press F5.
